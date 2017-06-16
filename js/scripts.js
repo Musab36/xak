@@ -25,6 +25,7 @@ $(document).ready(function() {
   event.preventDefault();
   var post = $('.comment').val();
   $("#comment-list").append('<div> User: ' + post +  '</div>');
+
 });
 $(".sign").click(function() {
   $(".fa-search").hide();
