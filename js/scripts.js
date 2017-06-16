@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".fa-search").click(function(event) {
     $(".fa-search").hide();
+    $(".sign").hide();
     $(".btn").hide();
     $(".btnsr").show();
     $(".input").show();
@@ -24,5 +25,12 @@ $(document).ready(function() {
   event.preventDefault();
   var post = $('.comment').val();
   $("#comment-list").append('<div> User: ' + post +  '</div>');
+});
+$(".sign").click(function() {
+  $(".fa-search").hide();
+  $(".sign").hide();
+  $(".btn").hide();
+  $(".user").show();
+  $("#userbtn").show();
 });
 });

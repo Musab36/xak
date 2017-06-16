@@ -66,7 +66,7 @@ li>a {
 }
 .fa-search {
 margin-top: 20px;
-margin-left: 850px;
+margin-left: 840px;
 color: white;
 }
 .icons {
@@ -162,4 +162,26 @@ h1 {
 .post {
   border-radius: 5px;
   width: 300px;
+}
+.sign {
+  color: white;
+  margin-left: 20px;
+
+}
+.user {
+  display: none;
+  border-radius: 5px;
+}
+#userbtn {
+  display: none;
+  margin-left: 5px;
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+  border-radius: 3px;
+}
+#userbtn:hover,
+        focus {
+  background-color: white;
+  color: black;
 }
