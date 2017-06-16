@@ -14,6 +14,12 @@ $(document).ready(function() {
     $("#container1").hide();
     event.preventDefault();
   });
+  $("#mor2").click(function() {
+    $("#container3").fadeIn();
+    $(".all").fadeOut();
+    $("#container1").fadeOut();
+    $("#container2").fadeOut();
+  });
   $("#home").click(function(event) {
     $(".all").show();
     $("#m1").hide();
@@ -27,11 +33,47 @@ $(document).ready(function() {
   $("#comment-list").append('<div> User: ' + post +  '</div>');
 
 });
-$(".sign").click(function() {
-  $(".fa-search").hide();
-  $(".sign").hide();
-  $(".btn").hide();
-  $(".user").show();
-  $("#userbtn").show();
-});
+$(".sign").click(function(event) {
+   $(".fa-search").hide();
+   $(".sign").hide();
+   $(".btn").hide();
+   $(".user").show();
+   $("#userbtn").show();
+   event.preventDefault();
+ });
+ $("#m2").submit(function(event) {
+   event.preventDefault();
+   var postTwo = $(".comment2").val();
+   $("#comment-list2").append('<div> User: ' + postTwo + '</div>');
+ });
+ $(".fa-thumbs-up").click(function(event) {
+   $("#down").fadeOut();
+   $("#up").fadeIn();
+   document.getElementById('up').innerHTML = ("You liked this story!");
+   event.preventDefault();
+ });
+ $(".fa-thumbs-down").click(function(event) {
+   $("#up").fadeOut();
+   $("#down").fadeIn();
+   document.getElementById('down').innerHTML = ("You disliked this story!");
+   event.preventDefault();
+ });
+ $(".fa-thumbs-up").click(function(event) {
+   $("#down").fadeOut();
+   $("#up2").fadeIn();
+   document.getElementById('up2').innerHTML = ("You liked this story!");
+   event.preventDefault();
+ });
+ $(".fa-thumbs-down").click(function(event) {
+   $("#up2").fadeOut();
+   $("#down2").fadeIn();
+   document.getElementById('down2').innerHTML = ("You disliked this story!");
+   event.preventDefault();
+ });
+
+ $(".btn-info").click(function(event) {
+   $(".btn-info").fadeOut();
+   $(".share").fadeIn();
+   event.preventDefault();
+ });
 });
