@@ -25,6 +25,7 @@ $(document).ready(function() {
     $("#m1").hide();
     $("#container1").show();
     $("#container2").hide();
+    $("#container3").fadeOut();
     event.preventDefault();
   });
   $('#m1').submit(function(event){
