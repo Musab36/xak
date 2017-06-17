@@ -127,16 +127,16 @@ h1 {
   display: none;
 }
 #container2 {
-  height: 800px;
+  height: 1100px;
   margin-top: 100px;
   display: none;
 }
 #container3 {
-  height: 800px;
+  height: 1000px;
   margin-top: 100px;
   display: none;
 }
-#f1btn {
+.form-btn {
   height: 40px;
   width: 100px;
   background-color: black;
@@ -144,7 +144,7 @@ h1 {
   border: 2px solid rgb(76, 206, 235);
   border-radius: 5px;
 }
-#f1btn:hover,
+.form-btn:hover,
        focus {
   background-color: blue;
   color: white;
@@ -208,4 +208,24 @@ h1 {
 }
 .share {
   display: none;
+}
+.delete {
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+.delete:hover,
+        focus{
+  background-color: white;
+  color: black;
+}
+.post-wells{
+  display: none;
+}
+ul {
+  color: blue;
 }

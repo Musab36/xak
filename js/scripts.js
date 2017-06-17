@@ -31,7 +31,7 @@ $(document).ready(function() {
   $('#m1').submit(function(event){
   event.preventDefault();
   var post = $('.comment').val();
-  $("#comment-list").append('<div> User: ' + post +  '</div>');
+  $("#comment-list").append('<li> User: ' + post +  '</li>');
 
 });
 $(".sign").click(function(event) {
@@ -45,7 +45,7 @@ $(".sign").click(function(event) {
  $("#m2").submit(function(event) {
    event.preventDefault();
    var postTwo = $(".comment2").val();
-   $("#comment-list2").append('<div> User: ' + postTwo + '</div>');
+   $("#comment-list2").append('<li> User: ' + postTwo + '</li>');
  });
  $(".fa-thumbs-up").click(function(event) {
    $("#down").fadeOut();
@@ -60,7 +60,7 @@ $(".sign").click(function(event) {
    event.preventDefault();
  });
  $(".fa-thumbs-up").click(function(event) {
-   $("#down").fadeOut();
+   $("#down2").fadeOut();
    $("#up2").fadeIn();
    document.getElementById('up2').innerHTML = ("You liked this story!");
    event.preventDefault();
@@ -76,5 +76,13 @@ $(".sign").click(function(event) {
    $(".btn-info").fadeOut();
    $(".share").fadeIn();
    event.preventDefault();
+ });
+ $(".delete").click(function() {
+   $("#comment-list").fadeOut();
+   $("#comment-list2").fadeOut();
+
+ });
+ $(".form-btn").click(function() {
+   $(".post-wells").fadeIn();
  });
 });
