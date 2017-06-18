@@ -29,7 +29,8 @@ $(document).ready(function() {
   });
 
   $("#home").click(function(event) {
-    $(".all").fadeOut();
+    $(".all").fadeOut(3000);
+    $(".evo").fadeIn(3000);
     $("#m1").hide();
     $("#container1").show();
     $("#container2").hide();
@@ -113,7 +114,7 @@ $(".sign").click(function(event) {
    $(".post-wells").fadeIn();
  });
  $("#stories").click(function() {
-   $(".all").fadeIn();
+   $(".all").fadeIn(3000);
    $(".evo").fadeOut(3000);
  });
 });
