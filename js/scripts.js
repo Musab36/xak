@@ -29,7 +29,7 @@ $(document).ready(function() {
   });
 
   $("#home").click(function(event) {
-    $(".all").show();
+    $(".all").fadeOut();
     $("#m1").hide();
     $("#container1").show();
     $("#container2").hide();
@@ -111,5 +111,9 @@ $(".sign").click(function(event) {
  });
  $(".form-btn").click(function() {
    $(".post-wells").fadeIn();
+ });
+ $("#stories").click(function() {
+   $(".all").fadeIn();
+   $(".evo").fadeOut(3000);
  });
 });

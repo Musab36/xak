@@ -57,11 +57,11 @@ li>a {
   color: black
 }
 #container1 {
-  height: 2550px;
   padding-top: 200px;
 }
 .bat {
   height: 400px;
+  margin-top: 50px;
   background-color: rgb(39, 7, 68);
   width: 100%;
 }
@@ -250,4 +250,7 @@ height: 500px;
   padding-top: 60px;
   font-weight: bolder;
   font-size: 30px;
+}
+.all {
+  display: none;
 }
