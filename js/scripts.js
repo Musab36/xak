@@ -40,7 +40,7 @@ $(document).ready(function() {
   $('#m1').submit(function(event){
   event.preventDefault();
   var post = $('.comment').val();
-  $("#comment-list").append('<li> User: ' + post +  '</li>');
+  $("#comment-list").append('<li> ' + post +  '</li>');
 
 });
 $(".sign").click(function(event) {
@@ -54,12 +54,12 @@ $(".sign").click(function(event) {
  $("#m2").submit(function(event) {
    event.preventDefault();
    var postTwo = $(".comment2").val();
-   $("#comment-list2").append('<li> User: ' + postTwo + '</li>');
+   $("#comment-list2").append('<li> ' + postTwo + '</li>');
  });
  $("#m3").submit(function(event) {
    event.preventDefault();
    var postThree = $(".comment3").val();
-   $("#comment-list3").append('<li> User: ' + postThree + '</li>');
+   $("#comment-list3").append('<li> ' + postThree + '</li>');
  });
  $(".fa-thumbs-up").click(function(event) {
    $("#down").fadeOut();

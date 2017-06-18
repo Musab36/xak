@@ -13,6 +13,7 @@
 }
 li>a {
 	display: block;
+  list-style: none;
 	line-height: 80px;
 	font-family: cursive;
 	font-size: 20px;
@@ -231,8 +232,11 @@ h1 {
 .post-wells{
   display: none;
 }
-ul {
+li {
   color: blue;
+}
+ul {
+  color: red;
 }
 .evo {
 background-image: url(evolve.jfif);
