@@ -278,3 +278,21 @@ height: 500px;
 blockquote {
   background-color: rgb(205, 201, 194);
 }
+#connews {
+  margin-top: 150px;
+}
+#btnback {
+  margin-left: 50px;
+  background-color: rgb(237, 170, 20);
+  color: black;
+  width: 150px;
+  height: 50px;
+  border: 2px solid rgb(237, 170, 20);
+  border-radius: 5px;
+  display: none;
+}
+#btnback:hover,
+         focus{
+  background-color: white;
+  color: red;
+}

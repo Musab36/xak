@@ -104,36 +104,65 @@ $(".sign").click(function(event) {
  $(".form-btn").click(function() {
    $(".post-wells").fadeIn();
  });
- $("#news1").click(function() {
+ $("#news1").click(function(event) {
+   $("#btnback").fadeIn();
    $("#story1").fadeIn(3000);
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news2").click(function() {
+ $("#btnback").click(function() {
+   $("#btnback").fadeOut(event);
+   $("#connews").fadeIn(3000);
+   $("#story1").fadeOut(2000);
+   $("#story2").fadeOut(2000);
+   $("#story3").fadeOut(2000);
+   $("#story4").fadeOut(2000);
+   $("#story5").fadeOut(2000);
+   $("#story6").fadeOut(2000);
+   $("#story7").fadeOut(2000);
+   $("#story8").fadeOut(2000);
+   event.preventDefault();
+ });
+ $("#news2").click(function(event) {
    $("#story2").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news3").click(function() {
+ $("#news3").click(function(event) {
    $("#story3").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news4").click(function() {
+ $("#news4").click(function(event) {
    $("#story4").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news5").click(function() {
+ $("#news5").click(function(event) {
    $("#story5").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news6").click(function() {
+ $("#news6").click(function(event) {
    $("#story6").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news7").click(function() {
+ $("#news7").click(function(event) {
    $("#story7").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
- $("#news8").click(function() {
+ $("#news8").click(function(event) {
    $("#story8").fadeIn(3000);
+   $("#btnback").fadeIn();
    $("#connews").fadeOut();
+   event.preventDefault();
  });
 });
