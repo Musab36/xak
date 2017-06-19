@@ -254,3 +254,23 @@ height: 500px;
 .all {
   display: none;
 }
+.icon1,.icon4,#icon5 {
+  background-color: rgb(227, 146, 25);
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+#icon2,#icon3 {
+  background-color: blue;
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+.news {
+  color: silver;
+  font-size: 30px;
+}
+.news:hover,
+      focus {
+  color: rgb(227, 146, 25);
+}
