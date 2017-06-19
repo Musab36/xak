@@ -264,3 +264,6 @@ height: 500px;
       focus {
   color: rgb(227, 146, 25);
 }
+.header {
+  text-align: center;
+}
