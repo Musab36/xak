@@ -28,6 +28,7 @@ $(document).ready(function() {
     $("#container3").fadeOut();
   });
 
+
   $('#m1').submit(function(event){
   event.preventDefault();
   var post = $('.comment').val();
