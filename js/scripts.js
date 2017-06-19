@@ -28,16 +28,6 @@ $(document).ready(function() {
     $("#container3").fadeOut();
   });
 
-  $("#home").click(function(event) {
-    $(".all").fadeOut(3000);
-    $(".evo").fadeIn(3000);
-    $("#m1").hide();
-    $("#container1").show();
-    $("#container2").hide();
-    $("#container3").fadeOut();
-    $("#container4").fadeOut();
-    event.preventDefault();
-  });
   $('#m1').submit(function(event){
   event.preventDefault();
   var post = $('.comment').val();
@@ -112,9 +102,5 @@ $(".sign").click(function(event) {
  });
  $(".form-btn").click(function() {
    $(".post-wells").fadeIn();
- });
- $("#stories").click(function() {
-   $(".all").fadeIn(3000);
-   $(".evo").fadeOut(3000);
  });
 });

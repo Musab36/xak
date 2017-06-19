@@ -127,18 +127,8 @@ h1 {
 #m1 {
   display: none;
 }
-#container2 {
+#container2,#container3,#container4 {
   height: 1100px;
-  margin-top: 100px;
-  display: none;
-}
-#container3 {
-  height: 1000px;
-  margin-top: 100px;
-  display: none;
-}
-#container4 {
-  height: 1000px;
   margin-top: 100px;
   display: none;
 }
@@ -252,7 +242,7 @@ height: 500px;
   font-size: 30px;
 }
 .all {
-  display: none;
+  padding-top: 100px;
 }
 .icon1,.icon4,#icon5 {
   background-color: rgb(227, 146, 25);
