@@ -104,4 +104,36 @@ $(".sign").click(function(event) {
  $(".form-btn").click(function() {
    $(".post-wells").fadeIn();
  });
+ $("#news1").click(function() {
+   $("#story1").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news2").click(function() {
+   $("#story2").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news3").click(function() {
+   $("#story3").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news4").click(function() {
+   $("#story4").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news5").click(function() {
+   $("#story5").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news6").click(function() {
+   $("#story6").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news7").click(function() {
+   $("#story7").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
+ $("#news8").click(function() {
+   $("#story8").fadeIn(3000);
+   $("#connews").fadeOut();
+ });
 });
