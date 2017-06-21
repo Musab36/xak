@@ -9,25 +9,39 @@ $(document).ready(function() {
   });
   $("#mor1").click(function(event) {
     $("#m1").fadeIn();
+    $("#btntopics").fadeIn();
     $("#container2").fadeIn();
     $(".all").hide();
     $("#container1").hide();
     event.preventDefault();
   });
-  $("#mor2").click(function() {
+  $("#mor2").click(function(event) {
+    $("#btntopics").fadeIn();
     $("#container3").fadeIn();
     $(".all").fadeOut();
     $("#container1").fadeOut();
     $("#container2").fadeOut();
+    event.preventDefault();
   });
-  $("#mor3").click(function() {
+  $("#mor3").click(function(event) {
+    $("#btntopics").fadeIn();
     $("#container4").fadeIn();
     $(".all").fadeOut();
     $("#container1").fadeOut();
     $("#container2").fadeOut();
     $("#container3").fadeOut();
+    event.preventDefault();
   });
-
+ $("#btntopics").click(function(event) {
+   $("#btntopics").fadeOut();
+   $("#m1").fadeOut(2000);
+   $("#container2").fadeOut();
+   $("#container3").fadeOut(2000);
+   $("#container4").fadeOut(2000);
+   $(".all").fadeIn(2000);
+   $(".bat").fadeIn(2000);
+   event.preventDefault();
+ });
 
   $('#m1').submit(function(event){
   event.preventDefault();
