@@ -296,3 +296,20 @@ blockquote {
   background-color: white;
   color: red;
 }
+#imgabout {
+  width: 120%;
+  margin-left: -120px;
+  height: 300px;
+}
+.us {
+  text-align: center;
+}
+.heds {
+  color: red;
+  font-family: fantasy;
+}
+.ps {
+  color: blue;
+  font-family: monospace;
+  font-weight: bold;
+}
